@@ -1,4 +1,4 @@
-Welcome to OctoFound! OctoFound is a <strong>responsive</strong> and <strong>highly customizable</strong> Foundation-5 theme for Octopress. <strong>Click here for a live demo!</strong>
+Welcome to OctoFound! OctoFound is a <strong>responsive</strong> and <strong>highly customizable</strong> Foundation-5 theme for Octopress. <strong><a href="http://octofound.annekjohnson.com/">Click here for a live demo.</a></strong>
 
 <h3>Theme Features:</h3>
 
