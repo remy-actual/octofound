@@ -228,6 +228,13 @@ footer{
 		@media #{$small-only} {
 			font-size: $body-font-size - 4px;
 		}
+		.copyright{
+			color: $header-font-color;
+			font-family: $header-font-family;
+			font-size: $body-font-size + 2px;
+			padding-bottom: 8px;
+			display: block;
+		}
 	}
 }
 
@@ -387,3 +394,4 @@ hr{
 code{
 	color: $subheader-font-color;
 }
+
