@@ -1,4 +1,4 @@
-Welcome to OctoFound! OctoFound is a <strong>responsive</strong> and <strong>highly customizable</strong> Foundation-5 theme for Octopress.
+Welcome to OctoFound! OctoFound is a <strong>responsive</strong> and <strong>highly customizable</strong> Foundation-5 theme for Octopress. <strong>Click here for a live demo!</strong>
 
 <h3>Theme Features:</h3>
 
@@ -9,7 +9,7 @@ Welcome to OctoFound! OctoFound is a <strong>responsive</strong> and <strong>hig
 	<li><strong>No-sidebar, left-sidebar, and right-sidebar</strong> page templates. To use these different layouts, open <code>your_page_or_post.markdown</code> and add the line <code>sidebar: false</code> to hide the sidebar, or <code>sidebar_left: true</code> to make the sidebar display on the left. The sidebar displays on the right by default.</li>
 	<li><strong>Sticky navigation bar:</strong> to make the navigation bar stick to the top of the page, add the line <code>fixed_navigation: true</code> to your <code>_config.yml</code> file.</li>
 	<li><strong>Optional subtitles on pages:</strong> in <code>your_page.markdown</code>, put the line <code>subtitle: Your Subtitle Here</code> in the header to give that page a subtitle.</li>
-	<li><strong>Font Awesome 4.0.3:</strong> <a href="http://fortawesome.github.io/Font-Awesome/icons/">click here</a> to browse the amazing icons at your fingertips. <i class="fa fa-smile-o"></i></li>
+	<li><strong>Font Awesome 4.0.3:</strong> <a href="http://fortawesome.github.io/Font-Awesome/icons/">click here</a> to browse the amazing icons at your fingertips.</li>
 </ul>
 
 
