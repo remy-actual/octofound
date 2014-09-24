@@ -28,11 +28,16 @@ Welcome to OctoFound! OctoFound is a <strong>responsive</strong> and <strong>hig
 		</ul>
 		If you have an older version of Foundation already, you may need to uninstall it completely before re-installing the latest version (note that the name of the gem changed between versions 4 and 5).
 	</li>
-	<li>Add the following lines to your config.rb file:
+	<li>In your Octopress project root directory, configure Compass by editing config.rb:
 		<ul>
-			<li><code>add_import_path "bower_components/foundation/scss"</code>
+			<li>At the end of the "Require any additional compass plugins here" section, add: 
+			<code>add_import_path "bower_components/foundation/scss"</code></li>
+			<li>At the end of the "Local development paths" section, add: 
+			<code>javascripts_dir = "source/js"</code>
+				<ul>
+					<li> "source" is your source directory as defined in your project Rakefile under "source_dir"</li>
+				</ul>
 			</li>
-			<li><code>javascripts_dir = "source/js"</code></li>
 		</ul>
 
 	</li>
@@ -40,6 +45,7 @@ Welcome to OctoFound! OctoFound is a <strong>responsive</strong> and <strong>hig
 		<ul>
 			<li><code>$ cd your_octopress_root</code></li>
 			<li><code>$ git clone https://github.com/annejohnson/octofound .themes/octofound</code></li>
+			<li><code>$ bower install</code></li>
 			<li><code>$ rake install['octofound']</code></li>
 			<li><code>$ rake generate</code></li>
 		</ul>
